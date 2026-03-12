@@ -1,9 +1,9 @@
 {
   "name": "Hardik Ultimate Dark",
   "type": "dark",
-  "colors": {
-    "editor.background": "#0A0A0A",
-    "editor.foreground": "#E8DFF5",
+  "colors": { 
+    "editor.background": "#000000",
+    "editor.foreground": "#e5daf4",
     "editorCursor.foreground": "#FF2D6B",
     "editorCursor.background": "#0A0A0A",
     "editor.lineHighlightBackground": "#0F0F1A",
@@ -55,9 +55,9 @@
     "activityBar.border": "#0A0A18",
     "activityBarBadge.background": "#FF2D6B",
     "activityBarBadge.foreground": "#FFFFFF",
-    "sideBar.background": "#080810",
-    "sideBar.foreground": "#B8B0CC",
-    "sideBar.border": "#0A0A18",
+    "sideBar.background": "#1a1a34",
+    "sideBar.foreground": "#cbc3df",
+    "sideBar.border": "#000000",
     "sideBarTitle.foreground": "#7777FF",
     "sideBarSectionHeader.background": "#0C0C1A",
     "sideBarSectionHeader.foreground": "#9988DD",
@@ -526,7 +526,7 @@
         "string"
       ],
       "settings": {
-        "foreground": "#FF8C00"
+        "foreground": "#fffb1d"
       }
     },
     {
@@ -535,7 +535,7 @@
         "string.template"
       ],
       "settings": {
-        "foreground": "#FF6600"
+        "foreground": "#fb6e11"
       }
     },
     {
@@ -676,7 +676,7 @@
         "string.quoted.single.html"
       ],
       "settings": {
-        "foreground": "#FF8C00"
+        "foreground": "#9dff00"
       }
     },
     {
@@ -707,7 +707,7 @@
         "support.constant.property-value"
       ],
       "settings": {
-        "foreground": "#88CC22"
+        "foreground": "#55cc22"
       }
     },
     {
