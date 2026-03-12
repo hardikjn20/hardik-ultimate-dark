@@ -50,13 +50,13 @@
     "diffEditor.insertedLineBackground": "#0A1E0A",
     "diffEditor.removedLineBackground": "#1E0A0A",
     "activityBar.background": "#060610",
-    "activityBar.foreground": "#c9c1d6"
+    "activityBar.foreground": "#c9c1d6",
     "activityBar.inactiveForeground": "#3A3A5A",
     "activityBar.border": "#0A0A18",
     "activityBarBadge.background": "#FF2D6B",
     "activityBarBadge.foreground": "#FFFFFF",
     "sideBar.background": "#1a1a34",
-    "sideBar.foreground": "#b8b0cc"
+    "sideBar.foreground": "#b8b0cc",
     "sideBar.border": "#000000",
     "sideBarTitle.foreground": "#7777FF",
     "sideBarSectionHeader.background": "#0C0C1A",
@@ -86,7 +86,7 @@
     "menu.separatorBackground": "#1A1A2A",
     "menu.border": "#1A1A2E",
     "tab.activeBackground": "#0A0A1A",
-    "tab.activeForeground": "#ddd5ec"
+    "tab.activeForeground": "#ddd5ec",
     "tab.activeBorder": "#FF2D6B",
     "tab.activeBorderTop": "#FF2D6B",
     "tab.inactiveBackground": "#060610",
@@ -103,7 +103,7 @@
     "panelTitle.activeForeground": "#E8DFF5",
     "panelTitle.inactiveForeground": "#5A5A7A",
     "terminal.background": "#0A0A0A",
-    "terminal.foreground": "#ddd5ec"
+    "terminal.foreground": "#ddd5ec",
     "terminal.selectionBackground": "#2D1B4E",
     "terminal.ansiBlack": "#1A1A2A",
     "terminal.ansiRed": "#FF3B3B",
@@ -126,7 +126,7 @@
     "scrollbarSlider.hoverBackground": "#3A3A6A88",
     "scrollbarSlider.activeBackground": "#5A5A9AAA",
     "input.background": "#0C0C1A",
-    "input.foreground": "#ddd5ec"
+    "input.foreground": "#ddd5ec",
     "input.border": "#2A2A4A",
     "input.placeholderForeground": "#4A4A6A",
     "inputOption.activeBorder": "#7777FF",
