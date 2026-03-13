@@ -1,95 +1,41 @@
 # Hardik Ultimate Dark
 
-> A bold, vibrant VS Code theme — **pure black background**, 45+ carefully chosen colors, zero clashing combos. Built from scratch, not based on any existing theme.
+Pure black background. 9 distinct vibrant colors. Every token type is instantly recognizable.
 
----
+## Color System
 
-## 🎨 Color Design Philosophy
+| Color | Token | Hex |
+|---|---|---|
+| 🩷 Hot Pink | Keywords `if` `for` `while` `return` `import` `let` `const` | `#FF2D78` |
+| 🟡 Gold | Operators `=` `+` `&&` `===` · Numbers · `true/false/null` | `#FFD60A` |
+| 🟢 Emerald | Strings · Template literals · CSS values · HTML attr values | `#2ECC71` |
+| 🔵 Blue | Functions — all calls and definitions | `#007AFF` |
+| 🟣 Violet | Classes · Types · Interfaces · Enums · CSS @rules | `#BF5AF2` |
+| 🩵 Turquoise | Decorators · HTML attrs · CSS props · JSON keys · YAML keys | `#00E5CC` |
+| 🟢 Lime | Parameters | `#AFFF00` |
+| 🌸 Lavender | Variables (soft, readable, no white) | `#E8D5FF` |
+| ⚫ Gray | Comments · Punctuation | `#636366` |
 
-Every color was hand-picked and mathematically verified. Any two colors that appear together in code are **at least 15° hue apart OR 18% lightness apart** — meaning your eye never confuses them.
+## Languages Supported
 
-### The Color Language
+JavaScript · TypeScript · React/JSX/TSX · Angular · Vue · Node.js  
+Python · Java · C/C++ · SQL  
+HTML · CSS · SCSS · LESS · Tailwind  
+JSON · YAML · Markdown
 
-| Token | Color | Hex | Why |
-|---|---|---|---|
-| Keywords `if for while` | 🔴 Crimson-Pink | `#FF2D6B` | Most important — pops out |
-| `import export from` | 🔴 Deep Crimson | `#D91A55` | Same family, distinct shade |
-| `let const var function` | 🩷 Soft Pink | `#FF80AA` | Storage — lighter than keywords |
-| Operators `= + - && ===` | 🟡 Gold | `#FFD700` | Clean gold, never confused |
-| Function names | 🔵 Electric Blue | `#3399FF` | Key semantic meaning |
-| Variables | ⚪ Near White | `#E8DFF5` | Most common — neutral |
-| Parameters | 🟢 Electric Lime | `#C8FF00` | Pops out from gold operators |
-| `this self super` | 🟣 Indigo | `#7777FF` | Language-level vars — special |
-| Strings | 🟠 Orange | `#FF8C00` | Warm, readable |
-| Template literals | 🟠 Deep Orange | `#FF6600` | Same family, deeper |
-| Numbers `42 3.14` | 🩵 Sky Blue | `#66DDFF` | Distinct from string orange |
-| `true false null` | 🩵 Teal | `#00AABB` | Language constants |
-| Class names | 🟣 Lavender | `#CC77FF` | Types feel "structural" |
-| Type/Interface | 🟣 Medium Purple | `#AA44EE` | Same family as classes |
-| Decorators `@decorator` | 🌿 Mint | `#00FFAA` | Special meta — stands out |
-| HTML tags | 🟣 Hot Magenta | `#FF00CC` | Markup — distinct from code |
-| HTML attributes | 🟢 Seafoam | `#00EEA0` | Complement to magenta tags |
-| CSS properties | 🟢 Medium Green | `#66BB6A` | Structural CSS |
-| Comments | 🔵 Muted Blue-Gray | `#5C6A7A` italic | Recedes, never distracts |
-| Errors | 🔴 Pure Red | `#FF3B3B` | Immediate alert |
+## Install
 
----
+Extensions panel → search **Hardik Ultimate Dark** → Install → `Ctrl+K Ctrl+T`
 
-## ✅ Full Language Coverage
-
-**Web:** JavaScript · TypeScript · React/JSX · Angular · Node.js · HTML · CSS · SCSS · LESS · Tailwind CSS
-
-**Data/ML:** Python · NumPy · Pandas · TensorFlow · PyTorch · Scikit-learn
-
-**Backend/Systems:** Java · C++ · SQL
-
-**Config/Docs:** JSON · YAML · Markdown
-
----
-
-## ✨ Features
-
-- **Pure black** `#0A0A0A` background — true dark, not dark gray
-- **45+ token colors** — all distinct, all verified clash-free
-- **194 UI color keys** — editor, sidebar, tabs, terminal, git, panels, all styled
-- **Rainbow bracket highlighting** — 6 distinct colors  
-- **Full 16-color ANSI terminal palette**
-- **Git decorations** — add/modify/delete/untracked/conflict all distinct
-- **IntelliSense widget theming** — suggest, hover, errors all styled
-
----
-
-## 📦 Installation
-
-**From Marketplace:**
-1. Open Extensions `Ctrl+Shift+X`
-2. Search **Hardik Ultimate Dark**
-3. Install → `Ctrl+K Ctrl+T` → select theme
-
-**From VSIX:**
-```
-vsce package
-code --install-extension hardik-ultimate-dark-2.0.0.vsix
-```
-
----
-
-## 🔤 Recommended Settings
+## Recommended Settings
 
 ```json
 {
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 14,
   "editor.fontLigatures": true,
-  "editor.lineHeight": 1.6,
-  "editor.letterSpacing": 0.3
+  "editor.lineHeight": 1.6
 }
 ```
 
-**Font:** [JetBrains Mono](https://www.jetbrains.com/lp/mono/) — free, ligatures, designed for code
-
----
-
-## 📄 License
-
-MIT — use freely, modify, distribute.
+MIT License

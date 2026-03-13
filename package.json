@@ -1,61 +1,20 @@
 {
   "name": "hardik-ultimate-dark",
   "displayName": "Hardik Ultimate Dark",
-  "description": "A bold, vibrant dark theme with 45+ carefully chosen colors — zero clashes, black background. Full support for JS, TS, React, Angular, Node.js, Python, Data Science, Java, C++, SQL, HTML, CSS/SCSS, Tailwind, JSON, YAML, Markdown.",
-  "version": "2.1.0",
+  "description": "Pure black background. 9 maximally distinct vibrant colors. Zero eye strain. Built for all-day coding.",
+  "version": "4.0.0",
   "publisher": "hardikjain",
   "icon": "icon.png",
-  "galleryBanner": {
-    "color": "#0A0A0A",
-    "theme": "dark"
-  },
-  "engines": {
-    "vscode": "^1.80.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "dark theme",
-    "black background",
-    "colorful dark theme",
-    "developer theme",
-    "python theme",
-    "react theme",
-    "angular theme",
-    "nodejs theme",
-    "data science theme",
-    "machine learning theme",
-    "tensorflow theme",
-    "pytorch theme",
-    "cpp theme",
-    "java theme",
-    "vibrant theme",
-    "modern dark theme",
-    "vs code dark theme",
-    "tailwind theme",
-    "sql theme",
-    "yaml theme",
-    "typescript theme",
-    "scss theme",
-    "markdown theme",
-    "full stack theme"
-  ],
+  "galleryBanner": { "color": "#0A0A0A", "theme": "dark" },
+  "engines": { "vscode": "^1.80.0" },
+  "categories": ["Themes"],
+  "keywords": ["dark theme","black","vibrant","javascript","typescript","react","angular","python","java","cpp","sql","css"],
   "contributes": {
-    "themes": [
-      {
-        "label": "Hardik Ultimate Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/hardik-ultimate-dark-color-theme.json"
-      }
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hardikjain/hardik-ultimate-dark"
-  },
-  "bugs": {
-    "url": "https://github.com/hardikjain/hardik-ultimate-dark/issues"
+    "themes": [{
+      "label": "Hardik Ultimate Dark",
+      "uiTheme": "vs-dark",
+      "path": "./themes/hardik-ultimate-dark-color-theme.json"
+    }]
   },
   "license": "MIT"
 }
